@@ -1,0 +1,321 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+
+
+
+
+@font-face {
+	font-family: "SFProDisplay";
+	src: url("../fonts/SFProDisplay-Light.woff2") format("woff2"), url("../fonts/SFProDisplay-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SFProDisplay";
+	src: url("../fonts/SFProDisplay-Bold.woff2") format("woff2"), url("../fonts/SFProDisplay-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;
+}
+
+.header {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.header-top {
+	width: 810px;
+	height: 100px;
+	background-color: rgb(156, 156, 156);
+	border-radius: 30px;
+	margin: 0 auto;
+	border-top: 8px double rgb(56, 56, 56);
+	border-right: 8px double rgb(56, 56, 56);
+	border-bottom: 8px double rgb(56, 56, 56);
+	border-left: 8px double rgb(56, 56, 56);
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.block {
+	width: 810px;
+	margin: 0px auto;
+	text-align: left;;
+}
+
+.block-two {
+	margin-bottom: 70px;
+}
+
+.block-text {
+	margin-bottom: 38px;
+}
+
+.block-three {
+	margin-top: 0px;
+	margin-left: 40px;
+	margin-right: 0px;
+	margin-bottom: 40px;
+}
+
+.block-four {
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 0px;
+	margin-bottom: 38px;
+}
+
+.title {
+	font-size: 46px;
+	font-family: "lato";
+	font-weight: 900;
+	color: black;
+	margin-bottom: 100px;
+}
+.list {
+	font-family: "lato";
+	font-weight: 400;
+	color: black;
+	text-shadow: 1px 1px 5px rgb(37, 37, 37);
+}
+.text-one {
+	font-size: 20px;
+	font-family: "lato";
+	font-weight: 700;
+	color: black;
+	line-height: 30px;
+	text-shadow: 0.1px 1px 3px rgb(37, 37, 37);
+	margin-bottom: 38px;
+}
+.text-two {
+	font-family: "lato";
+	font-weight: 400;
+	color: black;
+	text-shadow: 0.1px 1px 3px rgb(37, 37, 37);
+	line-height: 26px;
+}
+
+.text-three {
+	font-size: 20px;
+	font-family: "lato";
+	font-weight: 700;
+	color: black;
+	line-height: 30px;
+}
+
+.block-one {
+	width: 810px;
+	margin: 0px auto;
+	text-align: left;
+}
+
+.title-one {
+	font-size: 46px;
+	font-family: "Roboto Slab";
+	font-weight: 900;
+	color: black;
+	margin-bottom: 100px;
+	max-width: 810px;
+	min-height: 100px;
+	background-color: rgb(156, 156, 156);
+	border-radius: 30px;
+	border-top: 8px double rgb(56, 56, 56);
+	border-right: 8px double rgb(56, 56, 56);
+	border-bottom: 8px double rgb(56, 56, 56);
+	border-left: 8px double rgb(56, 56, 56);
+	text-align: center
+}
+
+.image {
+	border-top: 8px double rgb(103, 178, 201);
+	border-right: 8px double rgb(103, 178, 201);
+	border-bottom: 8px double rgb(103, 178, 201);
+	border-left: 8px double rgb(103, 178, 201);
+	border-radius: 50px;
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+}
+
+.block-five {
+	margin-bottom: 50px;
+}
+
+.text-four {
+	margin-bottom: 30px;
+	background-color: darkcyan;
+	border-top: 4px solid rgb(101, 143, 85);
+	border-right: 4px solid rgb(101, 143, 85);
+	border-bottom: 4px solid rgb(101, 143, 85);
+	border-left: 4px solid rgb(101, 143, 85);
+	border-radius: 10px;
+	padding: 10px;
+	font-family: "Comforter";
+	font-size: 25px;
+	text-shadow: 5px 5px 15px rgb(37, 37, 37);
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+}
+
+.text-five {
+	margin-bottom: 30px;
+	background-color: rgb(0, 209, 209);
+	border-top: 4px dotted rgb(85, 99, 143);
+	border-right: 4px dotted rgb(85, 99, 143);
+	border-bottom: 4px dotted rgb(85, 99, 143);
+	border-left: 4px dotted rgb(85, 99, 143);
+	border-radius: 10px;
+	padding: 10px;
+	font-family: "Lobster";
+	font-size: 25px;
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	visibility: hidden;
+}
+
+.text-four:hover ~.text-five,
+.text-five:hover {
+	visibility: visible;
+}
+
+.text-six {
+	margin-bottom: 30px;
+	background-color: rgb(42, 209, 0);
+	border-top: 4px dotted rgb(209, 194, 61);
+	border-right: 4px dotted rgb(209, 194, 61);
+	border-bottom: 4px dotted rgb(209, 194, 61);
+	border-left: 4px dotted rgb(209, 194, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Supermercado One";
+	font-size: 25px;
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+}
+
+.block-six {
+	margin-bottom: 50px;
+}
+
+.text-seven {
+	margin-bottom: 30px;
+	background-color: rgb(0, 209, 122);
+	border-top: 4px dashed rgb(209, 61, 61);
+	border-right: 4px dashed rgb(209, 61, 61);
+	border-bottom: 4px dashed rgb(209, 61, 61);
+	border-left: 4px dashed rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Roboto Slab";
+	font-size: 25px;
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+}
+
+.text-eight {
+	margin-bottom: 30px;
+	background-color: rgb(129, 209, 0);
+	border-top: 4px dashed rgb(61, 101, 209);
+	border-right: 4px dashed rgb(61, 101, 209);
+	border-bottom: 4px dashed rgb(61, 101, 209);
+	border-left: 4px dashed rgb(61, 101, 209);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Pacifico";
+	font-size: 25px;
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+}
+
+.block-seven {
+	margin-bottom: 50px;
+	background-color: rgb(139, 89, 204);
+	border-top: 4px dashed rgb(209, 61, 61);
+	border-right: 4px dashed rgb(209, 61, 61);
+	border-bottom: 4px dashed rgb(209, 61, 61);
+	border-left: 4px dashed rgb(209, 61, 61);
+	border-radius: 15px;
+	font-family: "Bungee Spice";
+	font-size: 25px;
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+}
+
+.block-seven:hover ~.block-eight,
+.block-eight:hover {
+	visibility: visible;
+}
+
+.text-list li{
+	margin-bottom: 10px;
+	padding: 10px 0px 0px 20px;
+}
+
+.block-eight {
+	margin-bottom: 50px;
+	visibility: hidden;
+}
+
+.text-ten {
+	background-color: rgb(106, 201, 103);
+	border-top: 4px dashed rgb(209, 61, 61);
+	border-right: 4px dashed rgb(209, 61, 61);
+	border-bottom: 4px dashed rgb(209, 61, 61);
+	border-left: 4px dashed rgb(209, 61, 61);
+	border-radius: 15px;
+	padding: 10px;
+	font-family: "Permanent Marker";
+	box-shadow: 5px 5px 15px rgb(37, 37, 37);
+	
+}
+
+
+.block-9 {
+	visibility: hidden;
+}
+
+.block-8:hover~.block-9,
+.block-9:hover {
+	display: inline-block;
+	visibility: visible;
+}
+
+.button {
+	color: beige;
+	font-family: "Comforter";
+	font-size: 40px;
+	display: inline-block;
+	background-color: rgb(204, 207, 221);
+	padding: 12px;
+	border-radius: 30px;
+	box-shadow: 0px 0px 20px 5px rgb(41, 41, 41), inset 0px 0px 20px 1px rgb(234, 242, 255);
+}
+
+.button:hover {
+	margin-top: 3px;
+	box-shadow: 0px 0px 15px 2px #000;
+}
+
+.block-nine {
+	margin-bottom: 100px;
+}
+
+.block-ten {
+	max-width: 108px;
+	margin: 0px auto;
+}
+
+
